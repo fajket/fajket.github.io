@@ -8,7 +8,7 @@ install:
 before_script:
 - pelican-themes -i ./theme/elegant
 script:
-- make publish github
+- make github
 env:
   global:
     secure: hox4sP5iJ+/SsrPug3SMX6hKadrGNmu3FX0D8lbgrbV3e6RFjTOjWhRD+zouc8eIJcV+QwDtaEpz4GcBa9ftp72mkhL+/ZPsC/j6Bl1KYduNhsfwJkirBqhwXQE9n8+MOnZIVF75O7fnPibCmeVPOnzejdJhF5iRPX2HwXG6hifCkX5uTLw9/NvCWGjseO2m1Lt6R/2AZSQGCStm+JgOxpuo7whQwmwD3X0iTbdqhNC9gkrzcdiqxiEHX3VBe2fGdHb461yXe3xQrHOveukqQpGoC9jyu1C3f454zvwFtoxrCOxYj6hVzxjyXKvdmY9bgDTzCQ6V1LPHMVM+mQLEJ/a2GzrKt59nTPRRTe3LOkPcXUnY9q5ZE2kXIKRvnmPZshs/5LDXSyDZ+W+QTCU8uziEu7a+0zAwszGb51vep8jOSV86+XZpB4xPiDrfly/yaPwzfoHnNEhjdX4Olc/6XzrLs7h2U+iTeXE+IcGCLStNlnvm6VBSV/8gmSZWv+BBQuYuS9IEqQZ0B95osBeijW7kxkgUwJQEd02JGE/yaWM8ijvoqpS9kZfhC7NpxQ/OMFVLKIRhZy4iK2IRlKILKANHDsInDUjvf5UkoUQhsEI4x2V5U6cf6TyT1BcyqezIyYzq7eM8xMbdB/evjCAF1BCzPOpJwUHXbFCioq9PF9Y=
